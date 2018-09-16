@@ -1,0 +1,108 @@
+.tittle {
+    background-color: rgba(43, 43, 43);
+    padding: 0.7%;
+}
+
+.logo {
+    color: #fff;
+    font-size: 115%;   
+    padding-left: 4%;
+}
+
+.tittle-font {
+    color: #fff;
+    font-size: 115%;
+    padding-right: 3%;
+}
+
+
+#head a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#head a:hover {
+    color: yellow;
+}
+
+.parallax{
+    background-image: url("../images/S__10256392.jpg");
+    min-height: 100%; 
+    background-attachment: fixed; 
+    background-position: center center;
+    background-size: cover;
+    -webkit-filter:grayscale(1);
+}
+
+.bar {
+    background-color: rgba(43, 43, 43);
+    padding-bottom: 3%;
+    padding-top: 1%;
+    color: #FFF;
+    text-align: center;
+}
+
+.bar-text {
+    font-size: 300%;
+}
+
+.bar-text-under {
+    font-size: 150%;
+}
+
+.bar-under {
+    height: 86%;
+    width: 100%;
+    overflow:hidden;
+}
+
+.bar-information {
+    padding-left: 20%;
+}
+
+.bar-height {
+    height: 100%;
+}
+
+.bar-position {
+    position:relative; 
+    top:40%; 
+    right: 20%;
+}
+
+.bar-position-img {
+    position:relative; 
+    top:10%; 
+}
+
+.bar-text {
+    font-size: 36px;
+}
+
+.btn {
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
+    margin: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
