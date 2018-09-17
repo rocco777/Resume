@@ -54,6 +54,7 @@
     height: 86%;
     width: 100%;
     overflow:hidden;
+    background-color: #FCFCFC;
 }
 
 .bar-information {
@@ -76,15 +77,39 @@
 }
 
 .bar-text {
-    font-size: 36px;
+    font-size: 24px;
 }
 
-.btn {
+.bar-tittle-text {
+    font-size: 36px;
+    border-bottom: 5px solid #FFED00;
+}
+
+
+.viewBtn {
     background-color: rgb(43, 43, 43);
     color: aliceblue;
-    margin: 2vh;
+    padding: 2%;
+    font-size: 24px;
+    width: 32%;
+    text-align:center;
+    border: none;
+    border-radius: 4px;
+    /* Old browsers */
+    background: linear-gradient(to left, #2b2b2b 50%, #FFED00 50%);
+    float:left;
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 1s ease;
 }
 
+.viewBtn:hover {
+    background-color: #FFED00;
+    color: #2b2b2b;
+    border: 1px #FFED00;
+    cursor: pointer;
+    background-position:left bottom;
+}
 
 
 
