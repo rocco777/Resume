@@ -51,10 +51,10 @@
 }
 
 .bar-under {
-    height: 86%;
+    height: 84%;
     width: 100%;
     overflow:hidden;
-    background-color: #FCFCFC;
+    background-color: rgb(243, 243, 243);
 }
 
 .bar-information {
@@ -111,8 +111,30 @@
     background-position:left bottom;
 }
 
+.bar-under-2 {
+    height: 84%;
+    width: 100%;
+    overflow:hidden;
+    background-color: #FFF;
+}
 
+.bar-position-2 {
+    position:relative; 
+    top: 30vh; 
+    right: 20vh;
+}
 
+.bar-position-img-2 {
+    height: 60%;
+    position:relative; 
+    top: 20vh;
+    left: 10vh;
+}
+
+.bar-text-more {
+    font-size: 48px;
+    padding-top: 1%;
+}
 
 
 
